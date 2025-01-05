@@ -1,0 +1,11 @@
+# confif/conf.yaml
+paths:
+  raw_data: "data/raw/vendas.csv"
+  processed_data: "data/processed/processed.csv"
+  train_data: "artifacts/train.csv"
+  test_data: "artifacts/test.csv"
+  final_data: "data/final/final.csv"
+  preprocessor: "artifacts/preprocessor.pkl"
+
+split:
+  test_size: 0.2
